@@ -1,0 +1,10 @@
+- model: films.movie
+  pk: 1
+  fields:
+    name: The wolf of Wall street
+    year: 2013
+    description: The Wolf of Wall Street is a 2013 American epic biographical black
+      comedy crime film directed by Martin Scorsese and written by Terence Winter,
+      based on Jordan Belfort's 2007 memoir of the same name. It recounts Belfort's
+      career as a stockbroker in New York City and how his firm, Stratton Oakmont,
+      engaged in rampant corruption and fraud on Wall Street, leading to his downfall.
