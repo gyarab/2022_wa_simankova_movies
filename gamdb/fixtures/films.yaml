@@ -8,3 +8,191 @@
       based on Jordan Belfort's 2007 memoir of the same name. It recounts Belfort's
       career as a stockbroker in New York City and how his firm, Stratton Oakmont,
       engaged in rampant corruption and fraud on Wall Street, leading to his downfall.
+    director: 4
+    genres:
+    - 3
+    - 4
+    - 5
+- model: films.movie
+  pk: 2
+  fields:
+    name: Straight Outta Compton
+    year: 2015
+    description: Straight Outta Compton is the debut studio album by American hip
+      hop group N.W.A, which, led by Eazy-E, formed in Los Angeles County's City of
+      Compton in early 1987. Released by his label, Ruthless Records, on August 8,
+      1988, the album was produced by N.W.A members Dr. Dre, DJ Yella, and Arabian
+      Prince.
+    director: 3
+    genres: []
+- model: films.movie
+  pk: 4
+  fields:
+    name: Top Gun
+    year: 1986
+    description: Top Gun is a 1986 American action drama film directed by Tony Scott,
+      produced by Don Simpson and Jerry Bruckheimer, with distribution by Paramount
+      Pictures. The screenplay was written by Jim Cash and Jack Epps Jr., and was
+      inspired by an article titled "Top Guns", written by Ehud Yonay and published
+      in California magazine three years earlier. It stars Tom Cruise as Lieutenant
+      Pete "Maverick" Mitchell, a young naval aviator aboard the aircraft carrier
+      USS Enterprise.
+    director: 1
+    genres: []
+- model: films.movie
+  pk: 5
+  fields:
+    name: 'Top Gun: Maverick'
+    year: 2022
+    description: 'Top Gun: Maverick grossed $718.7 million in the United States and
+      Canada, and $774 million in other territories, for a worldwide total of $1.493
+      billion. The film became the highest-grossing film of Cruise''s career on June
+      17, 2022, after crossing $800 million worldwide.'
+    director: 5
+    genres:
+    - 6
+    - 7
+- model: films.movie
+  pk: 6
+  fields:
+    name: Knives OUt
+    year: 2019
+    description: "OverviewPlotCastProductionReleaseReceptionSequelsExternal links\r\nKnives
+      Out is a 2019 American mystery film written, directed, and co-produced by Rian
+      Johnson. It follows master detective Benoit Blanc investigating the death of
+      the patriarch of a wealthy, dysfunctional family. The film features an ensemble
+      cast which includes Daniel Craig as Blanc, with Chris Evans, Ana de Armas, Jamie
+      Lee Curtis, Michael Shannon, Don Johnson, Toni Collette, LaKeith Stanfield,
+      Katherine Langford, Jaeden Martell, and Christopher Plummer."
+    director: 6
+    genres:
+    - 4
+    - 5
+- model: films.movie
+  pk: 7
+  fields:
+    name: 'Glass Onion: A Knives Out Mystery'
+    year: 2022
+    description: 'In the United States and Canada, Glass Onion: A Knives Out Mystery
+      was released alongside Strange World, Devotion, and Bones and All and The Fabelmans,
+      and was initially projected to gross around $6–8 million from 698 theaters over
+      its five-day opening weekend. As with their other theatrical releases, Netflix
+      did not release any box office numbers for the film.'
+    director: 6
+    genres:
+    - 4
+    - 5
+- model: films.movie
+  pk: 8
+  fields:
+    name: Black Panther
+    year: 2018
+    description: Black Panther is a 2018 American superhero film based on the Marvel
+      Comics character of the same name. Produced by Marvel Studios and distributed
+      by Walt Disney Studios Motion Pictures, it is the 18th film in the Marvel Cinematic
+      Universe (MCU).
+    director: 8
+    genres:
+    - 6
+- model: films.movie
+  pk: 9
+  fields:
+    name: The Shawshank Redemption
+    year: 1994
+    description: Over the course of several years, two convicts form a friendship,
+      seeking consolation and, eventually, redemption through basic compassion.
+    director: 9
+    genres:
+    - 7
+- model: films.movie
+  pk: 10
+  fields:
+    name: Forrest Gump
+    year: 1994
+    description: The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate
+      scandal and other historical events unfold from the perspective of an Alabama
+      man with an IQ of 75, whose only desire is to be reunited with his childhood
+      sweetheart.
+    director: 10
+    genres:
+    - 7
+- model: films.movie
+  pk: 11
+  fields:
+    name: Interstellar
+    year: 2014
+    description: A team of explorers travel through a wormhole in space in an attempt
+      to ensure humanity's survival.
+    director: 11
+    genres:
+    - 7
+    - 8
+- model: films.director
+  pk: 1
+  fields:
+    name: Tony Scott
+    birth_year: 1944
+- model: films.director
+  pk: 3
+  fields:
+    name: F. Gary Gray
+    birth_year: 1969
+- model: films.director
+  pk: 4
+  fields:
+    name: Martin Scorsese
+    birth_year: 1942
+- model: films.director
+  pk: 5
+  fields:
+    name: Joseph Kosinski
+    birth_year: 1674
+- model: films.director
+  pk: 6
+  fields:
+    name: Rian Johnson
+    birth_year: 1973
+- model: films.director
+  pk: 8
+  fields:
+    name: Ryan Coogler
+    birth_year: 1986
+- model: films.director
+  pk: 9
+  fields:
+    name: Frank Darabont
+    birth_year: 1959
+- model: films.director
+  pk: 10
+  fields:
+    name: Robert Zemeckis
+    birth_year: 1952
+- model: films.director
+  pk: 11
+  fields:
+    name: Christopher Nolan
+    birth_year: 1970
+- model: films.genre
+  pk: 3
+  fields:
+    name: biography
+- model: films.genre
+  pk: 4
+  fields:
+    name: comedy
+- model: films.genre
+  pk: 5
+  fields:
+    name: crime
+- model: films.genre
+  pk: 6
+  fields:
+    name: action
+- model: films.genre
+  pk: 7
+  fields:
+    name: drama
+- model: films.genre
+  pk: 8
+  fields:
+    name: sci-fi
