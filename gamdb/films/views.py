@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import Movie, Director, Actor, Genre
+from django.db.models import Q
 
 def directors(request):
     context = {

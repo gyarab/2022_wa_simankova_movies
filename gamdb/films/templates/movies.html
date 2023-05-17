@@ -1,19 +1,17 @@
 {% extends 'main.html' %}
 
-hi
 
-{%block title%}
+{% block title %}
     Filmy | {{ block.super }}
 {% endblock %}
 
 {% block content %}
-
 <h1>Filmy</h1>
 
 <div class="row">
     <form method="get" action="./">
     <div class="input-group mb-3">
-        <input type="text" name="search" value="{{ search|default:" "}}" class="form-control" placeholder="..." aria-label="Hledat" aria-describedby="button-addon2">
+        <input type="text" name="search" value="{{ search|default:"" }}" class="form-control" placeholder="..." aria-label="Hledat" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Hledat</button>
     </div>
     </form>

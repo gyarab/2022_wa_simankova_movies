@@ -1,8 +1,9 @@
+
 from django.db import models
 
 class Movie(models.Model):
     name = models.CharField(max_length=200)
-    slug = models.SlugField()
+    #slug = models.SlugField()
     image_url = models.CharField(max_length=255, blank=True, null=True)
     year = models.IntegerField(blank=True, null=True)
     avg_rating = models.FloatField(blank=True, null=True)
@@ -15,7 +16,7 @@ class Movie(models.Model):
 
     def genres_display(self):
         return ", ".join([i.name for i in self.genres.all()])
-   
+
 class Comment(models.Model):
     author = models.CharField(max_length=255)
     text = models.TextField()
@@ -25,7 +26,7 @@ class Comment(models.Model):
 
 class Director(models.Model):
     name = models.CharField(max_length=255)
-    slug = models.SlugField()
+    #slug = models.SlugField()
     birth_year = models.IntegerField(blank=True, null=True)
 
     def __str__(self):
@@ -35,7 +36,7 @@ class Director(models.Model):
 class Actor(models.Model):
     name = models.CharField(max_length=255)
     birth_year = models.IntegerField(blank=True, null=True)
-    slug = models.SlugField()
+    #slug = models.SlugField()
     photo_url = models.CharField(max_length=255, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
 
